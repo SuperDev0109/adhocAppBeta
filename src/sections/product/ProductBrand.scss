@@ -1,0 +1,31 @@
+.productBrandSection {
+    background-image: url('./brand.png');
+    padding: 20px;
+    border-radius: 20px;
+    padding-bottom: 70px;
+
+    .mainPanel {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+
+        .title1 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 60px;
+            color: #FFFFFF;
+        }
+        .title2 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 45px;
+            color: #FFFFFF;
+        }
+    }
+}
