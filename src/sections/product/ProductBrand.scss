@@ -29,3 +29,16 @@
         }
     }
 }
+
+@media only screen and (max-width: 595px) {
+    .desktopBrand {
+        display: none !important;
+    }
+    .mobileBrand {
+        display: flex !important;
+    }
+
+    .productBrandSection {
+        padding-bottom: 100px;
+    }
+}

@@ -29,7 +29,7 @@ export default function ProductCategory() {
               }
             },
             {
-                breakpoint: 900,
+                breakpoint: 993,
                 settings: {
                   slidesToShow: 3,
                   slidesToScroll: 1,
@@ -100,10 +100,10 @@ return (
         <div className='productBucketBoxSectionTitle'>Buckets</div>
         <div className='productBucketBoxSection'>
             <Slider {...settings_bucket}>
-                <BucketsBox imgSrc="images/product/bucket.png" width="160px" height="160px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
-                <BucketsBox imgSrc="images/product/bucket.png" width="160px" height="160px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
-                <BucketsBox imgSrc="images/product/bucket.png" width="160px" height="160px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
-                <BucketsBox imgSrc="images/product/bucket.png" width="160px" height="160px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
+                <BucketsBox imgSrc="images/product/bucket.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
+                <BucketsBox imgSrc="images/product/bucket.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
+                <BucketsBox imgSrc="images/product/bucket.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
+                <BucketsBox imgSrc="images/product/bucket.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
             </Slider>
         </div>
         <center><ShowMoreBtn /></center>
@@ -111,10 +111,10 @@ return (
         <div className='productBucketBoxSectionTitle'>Boxes</div>
         <div className='productBucketBoxSection'>
             <Slider {...settings_bucket}>
-                <BucketsBox imgSrc="images/product/boxes.png" width="160px" height="160px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
-                <BucketsBox imgSrc="images/product/boxes.png" width="160px" height="160px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
-                <BucketsBox imgSrc="images/product/boxes.png" width="160px" height="160px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
-                <BucketsBox imgSrc="images/product/boxes.png" width="160px" height="160px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
+                <BucketsBox imgSrc="images/product/boxes.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
+                <BucketsBox imgSrc="images/product/boxes.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
+                <BucketsBox imgSrc="images/product/boxes.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
+                <BucketsBox imgSrc="images/product/boxes.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
             </Slider>
         </div>
         <center><ShowMoreBtn /></center>
@@ -122,10 +122,10 @@ return (
         <div className='productBucketBoxSectionTitle'>Menu</div>
         <div className='productBucketBoxSection'>
             <Slider {...settings_bucket}>
-                <BucketsBox imgSrc="images/product/menu.png" width="160px" height="160px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
-                <BucketsBox imgSrc="images/product/menu.png" width="160px" height="160px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
-                <BucketsBox imgSrc="images/product/menu.png" width="160px" height="160px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
-                <BucketsBox imgSrc="images/product/menu.png" width="160px" height="160px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
+                <BucketsBox imgSrc="images/product/menu.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
+                <BucketsBox imgSrc="images/product/menu.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
+                <BucketsBox imgSrc="images/product/menu.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
+                <BucketsBox imgSrc="images/product/menu.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
             </Slider>
         </div>
         <center><ShowMoreBtn /></center>
@@ -133,10 +133,10 @@ return (
         <div className='productBucketBoxSectionTitle'>Wraps</div>
         <div className='productBucketBoxSection'>
             <Slider {...settings_bucket}>
-                <BucketsBox imgSrc="images/product/wrap.png" width="160px" height="160px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
-                <BucketsBox imgSrc="images/product/wrap.png" width="160px" height="160px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
-                <BucketsBox imgSrc="images/product/wrap.png" width="160px" height="160px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
-                <BucketsBox imgSrc="images/product/wrap.png" width="160px" height="160px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
+                <BucketsBox imgSrc="images/product/wrap.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
+                <BucketsBox imgSrc="images/product/wrap.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
+                <BucketsBox imgSrc="images/product/wrap.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
+                <BucketsBox imgSrc="images/product/wrap.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
             </Slider>
         </div>
         <center><ShowMoreBtn /></center>
@@ -144,10 +144,10 @@ return (
         <div className='productBucketBoxSectionTitle'>Burgers</div>
         <div className='productBucketBoxSection'>
             <Slider {...settings_bucket}>
-                <BucketsBox imgSrc="images/product/burger.png" width="160px" height="160px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
-                <BucketsBox imgSrc="images/product/burger.png" width="160px" height="160px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
-                <BucketsBox imgSrc="images/product/burger.png" width="160px" height="160px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
-                <BucketsBox imgSrc="images/product/burger.png" width="160px" height="160px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
+                <BucketsBox imgSrc="images/product/burger.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
+                <BucketsBox imgSrc="images/product/burger.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
+                <BucketsBox imgSrc="images/product/burger.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
+                <BucketsBox imgSrc="images/product/burger.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
             </Slider>
         </div>
         <center><ShowMoreBtn /></center>

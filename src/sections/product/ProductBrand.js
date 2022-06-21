@@ -10,13 +10,18 @@ export default function ProductBrand() {
             <div className='productBrandSection'>
                 <BackBtn text='Back' className='backBtnType1' />
 
-                <div className='mainPanel'>
+                <div className='mainPanel desktopBrand'>
                     <Image src="images/product/kfc.png" className="" alt="KFC Image" width="121px" height="121px" />
                     <span className='title1'>KFC</span>
                     <span className='title2'>From 11:00 - 17:00</span>
                     <div className='col-md-6'>
                         <SearchBox placeHolder="Search in Menu" className="w-full" />
                     </div>
+                </div>
+
+                <div className='mainPanel mobileBrand hidden'>
+                    <span className='title1'>KFC</span>
+                    <span className='title2'>From 11:00 - 17:00</span>
                 </div>
             </div>
         </Fragment>

@@ -61,3 +61,52 @@
 
     }
 }
+
+@media only screen and (max-width: 595px) {
+    .productReviewSectionDesktop {
+        display: none !important;
+    }
+    .productReviewSection {
+        width: 80%;
+        padding: 5px 10px 20px 10px;
+    }
+    .productReviewSectionMobile {
+        display: flex !important;
+        flex-direction: column;
+
+        .productReviewSectionMobilePanel1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .kftImg {
+                margin-top: -50px;
+            }
+
+            .panel1Mobile {
+                display: flex;
+                flex-direction: column;
+
+
+                .panel1MobileFirst {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+                }
+            }
+
+            .panel2Mobile {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        .panel3 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+}
