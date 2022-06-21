@@ -1,11 +1,15 @@
 .productCategorySection {
     padding-top: 50px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    // display: grid;
+    // grid-template-rows: repeat(4, minmax(0, 1fr));
+    // grid-auto-flow: row;
+
+    // display: flex;
+    // flex-direction: row;
+    // // flex-wrap: wrap;
+    // justify-content: center;
+    // align-items: center;
+    // gap: 10px;
 }
 
 .productBucketBoxSectionTitle {
@@ -20,11 +24,20 @@
 
 .productBucketBoxSection {
     padding-top: 50px;
-    padding-bottom: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-wrap: wrap;
+    // padding-bottom: 50px;
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: center;
+    // align-items: center;
+    // gap: 10px;
+    // flex-wrap: wrap;
+}
+
+.slick-prev:before
+{
+    content: url('img/leftArrow.png');
+}
+
+.slick-next:before {
+    content: url('img/rightArrow.png');
 }
