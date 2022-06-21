@@ -13,7 +13,7 @@ export default function Product() {
                 <ProductReview />
 
                 <ProductCategory />
-
+                
             </div>
         </Fragment>
     )
