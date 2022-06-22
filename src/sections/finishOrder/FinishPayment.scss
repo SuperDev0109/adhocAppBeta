@@ -1,0 +1,153 @@
+.finishPaymentSection {
+    padding-top: 60px;
+    .title1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 60px;
+        color: #000000;
+    }
+
+    .box {
+        margin-top: 40px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 5px 2px rgba(205, 205, 205, 0.7);
+        border-radius: 20px;
+        padding: 30px 110px;
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+
+        .title2 {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 45px;
+            color: #000000;
+        }
+
+        .boxPanel {
+            display: grid;
+            grid-template-columns: repeat(2,minmax(0,1fr));
+
+            .boxOption {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding-bottom: 10px;
+                border-bottom: 2px solid #FFB800;
+                width: 445px;
+                margin-bottom: 50px;
+                input {
+                    margin: 20px;
+                }
+                input[type="radio"] {
+                    width: 40px;
+                    height: 40px;
+                    cursor: pointer;
+                }
+                input[type="radio"]:after {
+                    background-color: white;
+                    border: 1px solid #FFB800;
+                    outline: none !important;
+                    border-radius: 50%;
+                    content: '';
+                    display: block;
+                    height: 40px;
+                    width: 40px;
+                }
+                input[type="radio"]:checked:after {
+                    background-color: #FFB800;
+                }
+                label {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 25px;
+                    line-height: 38px;
+                    color: #000000;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .finishPaymentSection {
+        padding-top: 50px;
+        .title1 {
+            font-size: 35px;
+        }
+        .box {
+            margin-top: 30px;
+            padding: 30px 30px;
+            gap: 30px;
+    
+            .title2 {
+                font-size: 25px;
+            }
+    
+            .boxPanel {
+                display: grid;
+                grid-template-columns: repeat(2,minmax(0,1fr));
+    
+                .boxOption {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding-bottom: 10px;
+                    border-bottom: 2px solid #FFB800;
+                    width: 302px;
+                    margin-bottom: 50px;
+                    input[type="radio"] {
+                        width: 35px;
+                        height: 35px;
+                        cursor: pointer;
+                    }
+                    input[type="radio"]:after {
+                        height: 35px;
+                        width: 35px;
+                    }
+                    label {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .finishPaymentSection {
+        padding-top: 50px;
+        .title1 {
+            font-size: 35px;
+        }
+        .box {
+            margin-top: 30px;
+            padding: 20px;
+            gap: 30px;
+    
+            .title2 {
+                font-size: 25px;
+                display: none;
+            }
+    
+            .boxPanel {
+                display: grid;
+                grid-template-columns: repeat(1,minmax(0,1fr));
+    
+                .boxOption {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    padding-bottom: 10px;
+                    border-bottom: 2px solid #FFB800;
+                    width: unset;
+                }
+            }
+        }
+    }
+}

@@ -106,7 +106,7 @@ return (
                 <BucketsBox imgSrc="images/product/bucket.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
             </Slider>
         </div>
-        <center><ShowMoreBtn /></center>
+        <center><ShowMoreBtn title="Show more" /></center>
 
         <div className='productBucketBoxSectionTitle'>Boxes</div>
         <div className='productBucketBoxSection'>
@@ -117,7 +117,7 @@ return (
                 <BucketsBox imgSrc="images/product/boxes.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
             </Slider>
         </div>
-        <center><ShowMoreBtn /></center>
+        <center><ShowMoreBtn title="Show more" /></center>
 
         <div className='productBucketBoxSectionTitle'>Menu</div>
         <div className='productBucketBoxSection'>
@@ -128,7 +128,7 @@ return (
                 <BucketsBox imgSrc="images/product/menu.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
             </Slider>
         </div>
-        <center><ShowMoreBtn /></center>
+        <center><ShowMoreBtn title="Show more" /></center>
 
         <div className='productBucketBoxSectionTitle'>Wraps</div>
         <div className='productBucketBoxSection'>
@@ -139,7 +139,7 @@ return (
                 <BucketsBox imgSrc="images/product/wrap.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
             </Slider>
         </div>
-        <center><ShowMoreBtn /></center>
+        <center><ShowMoreBtn title="Show more" /></center>
 
         <div className='productBucketBoxSectionTitle'>Burgers</div>
         <div className='productBucketBoxSection'>
@@ -150,7 +150,7 @@ return (
                 <BucketsBox imgSrc="images/product/burger.png" width="130px" height="130px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
             </Slider>
         </div>
-        <center><ShowMoreBtn /></center>
+        <center><ShowMoreBtn title="Show more" /></center>
 
         <div className='productBucketBoxSectionTitle'>Chicken pieces</div>
         <div className='productBucketBoxSection'>
@@ -161,7 +161,7 @@ return (
                 <BucketsBox imgSrc="images/product/chicken.png" width="160px" height="100px" title1="American Bucket" title2="Bucket contains 4 pieces of Kentucky chicken, 8x Hot Wings, 8x Strips, 4x..." title3="62,00" title4="RON" />
             </Slider>
         </div>
-        <center><ShowMoreBtn /></center>
+        <center><ShowMoreBtn title="Show more" /></center>
 
     </Fragment>
     )

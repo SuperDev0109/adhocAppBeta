@@ -11,3 +11,26 @@
     line-height: 30px;
     color: #000000;
 }
+
+.btnSmall {
+    padding: 3px 15px;
+}
+
+.showMoreBtnType1 {
+    background-color: #FFB800;
+    color: black;
+}
+.showMoreBtnType2 {
+    background-color: white;
+    color: black;
+}
+
+.paddingNextStep {
+    padding: 5px 100px;
+}
+
+@media only screen and (max-width: 500px) {
+    .noPadding {
+        padding: 5px 20px;
+    }
+}

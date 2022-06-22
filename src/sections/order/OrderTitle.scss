@@ -1,0 +1,52 @@
+.OrderTitleSection {
+    background-color: #FFB800;
+
+    .panel {
+        padding: 20px;
+        position: relative;
+
+        button {
+            position: absolute;
+            top: 30px;
+            left: 10px;
+        }
+
+        .orderTitle {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 60px;
+            color: #000000;
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .OrderTitleSection {
+        .panel {
+            padding: 18px;
+            .orderTitle {
+                font-size: 35px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .OrderTitleSection {
+        .panel {
+            padding: 18px;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+
+            button {
+                position: unset;
+            }
+            .orderTitle {
+                font-size: 30px;
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.specialMentionSection {
+    padding-top: 40px;
+
+    textarea {
+        background: #FFFFFF;
+        box-shadow: 0px 2px 5px 2px rgba(205, 205, 205, 0.7);
+        border-radius: 20px;
+        padding: 20px;
+        width: 100%;
+        // margin: 10px;
+        border: none;
+        outline: none;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .specialMentionSection {
+        textarea {
+            font-size: 18px;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .specialMentionSection {
+        textarea {
+            font-size: 12px;
+        }
+    }
+}

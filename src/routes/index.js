@@ -20,6 +20,8 @@ export default function Router() {
                 { element: <Navigate to="/home" replace />, index: true },
                 { path: 'home', element: <HomePage /> },
                 { path: 'product', element: <ProductPage /> },
+                { path: 'order', element: <OrderPage /> },
+                { path: 'finishorder', element: <FinishOrderPage /> },
             ]
         }
     ])
@@ -27,3 +29,5 @@ export default function Router() {
 
 const HomePage = Loadable(lazy(() => import('../pages/Home')));
 const ProductPage = Loadable(lazy(() => import('../pages/Product')));
+const OrderPage = Loadable(lazy(() => import('../pages/Order')));
+const FinishOrderPage = Loadable(lazy(() => import('../pages/FinishOrder')));
