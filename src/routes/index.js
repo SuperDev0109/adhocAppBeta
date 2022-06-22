@@ -2,6 +2,7 @@ import { Suspense, lazy } from "react";
 import { Navigate, useRoutes } from 'react-router-dom';
 //layout
 import MainLayout from '../layout';
+import EmptyLayout from '../emptyLayout';
 
 const Loadable = (Component) => (props) => {
     return (
@@ -13,6 +14,14 @@ const Loadable = (Component) => (props) => {
 
 export default function Router() {
     return useRoutes([
+        {
+            path: '/error',
+            element: <EmptyLayout />,
+            children: [
+                { element: <Navigate to="/404" replace />, index: true },
+                { path: '404', element: <Show404Page /> },
+            ]
+        },
         {
             path: '/',
             element: <MainLayout />,
@@ -31,3 +40,5 @@ const HomePage = Loadable(lazy(() => import('../pages/Home')));
 const ProductPage = Loadable(lazy(() => import('../pages/Product')));
 const OrderPage = Loadable(lazy(() => import('../pages/Order')));
 const FinishOrderPage = Loadable(lazy(() => import('../pages/FinishOrder')));
+//error page
+const Show404Page = Loadable(lazy(() => import('../pages/Show404')));

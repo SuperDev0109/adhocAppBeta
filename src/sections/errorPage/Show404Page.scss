@@ -1,0 +1,44 @@
+.show404PageSection {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+
+    .title1 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 60px;
+        color: #000000;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .show404PageSection {
+        width: 100%;
+        gap: 50px;
+        img {
+            width: 100%;
+        }
+        
+        .title1 {
+            font-size: 35px;
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .show404PageSection {
+        gap: 30px;
+        
+        .title1 {
+            font-size: 30px;
+        }
+    }
+}
