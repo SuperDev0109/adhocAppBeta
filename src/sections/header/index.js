@@ -3,11 +3,14 @@ import Image from '../../components/Image';
 import SearchBox from '../../components/SearchBox';
 import ShowMoreBtn from '../../components/ShowMoreBtn';
 import AddressBtn from '../../components/AddressBtn';
+import HeartIcon from '../../components/HeartIcon';
+import CartIcon from '../../components/CartIcon';
+import UserIcon from '../../components/UserIcon';
 
 export default function Index() {
     return (
         <div className='headerSection'>
-            <Image src="images/logo.png" width="200px" height="50px" />
+            <Image src="images/logo.png" width="164px" height="40px" />
             <div className='searchBox'>
                 <SearchBox placeHolder="Search for restaurant" />
                 <div className='btn-group'>
@@ -22,29 +25,9 @@ export default function Index() {
                 </div>
             </div>
             <div className='iconBox'>
-                <div className="btn-group">
-                    <label className='hover' data-toggle="dropdown"><Image src="images/icons/heart.png" width="35px" height="30px"/></label>
-                    <div className="dropdown-menu dropdown-menu-right customDropDownHeart">
-                        <span>Add your favourite food, restaurants or another</span>
-                    </div>
-                </div>
-                <div className="btn-group">
-                    <label className='hover' data-toggle="dropdown"><Image src="images/icons/cart.png" width="35px" height="30px"/></label>
-                    <div className="dropdown-menu dropdown-menu-right customDropDownCart">
-                        <p>You have no items in your shopping cart</p>
-                        <ShowMoreBtn title="Go to cart" className="btnSmall w-full" />
-                    </div>
-                </div>
-                <div className="btn-group">
-                    <label className='hover' data-toggle="dropdown"><Image src="images/icons/user.png" width="35px" height="30px"/></label>
-                    <div className="dropdown-menu dropdown-menu-right customDropDownUser">
-                        <p>Log in to your Adhoc account and have full access to the entire shopping list</p>
-                        <div className='box'>
-                            <ShowMoreBtn title="Log in" className="btnSmall" />
-                            <ShowMoreBtn title="New account" className="btnSmall" />
-                        </div>
-                    </div>
-                </div>
+                <HeartIcon />
+                <CartIcon />
+                <UserIcon />
             </div>
         </div>
     )

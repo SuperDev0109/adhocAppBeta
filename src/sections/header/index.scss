@@ -21,22 +21,6 @@
     }
 }
 
-.customDropDownHeart {
-    background: #FFFFFF;
-    box-shadow: 0px 2px 5px 2px rgba(205, 205, 205, 0.7);
-    border-radius: 20px;
-    padding: 15px;
-    width: 250px;
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-
-    color: #000000;
-}
-
 .customDropDownAddress {
     transform: none !important;
     background: #FFFFFF;
@@ -70,55 +54,9 @@
     }
 }
 
-.customDropDownCart {
-    background: #FFFFFF;
-    box-shadow: 0px 2px 5px 2px rgba(205, 205, 205, 0.7);
-    border-radius: 20px;
-    padding: 15px;
-    width: 250px;
 
-    p {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 30px;
-        color: #000000;
-    }
-
-    button {
-        font-size: 16px;
-        padding: 0px;
-    }
+@media only screen and (max-width: 991px) {
+    
 }
 
-.customDropDownUser {
-    background: #FFFFFF;
-    box-shadow: 0px 2px 5px 2px rgba(205, 205, 205, 0.7);
-    border-radius: 20px;
-    padding: 15px;
-    width: 400px;
 
-    p {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 30px;
-        color: #000000;
-    }
-
-    .box {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
-
-    button {
-        font-size: 16px;
-        padding: 1px 20px;
-        float: left;
-        margin: 0 20px;
-    }
-}

@@ -82,7 +82,6 @@ export default function ProductCategory() {
 
 return (
     <Fragment>
-
         
         <div className='productCategorySection'>
             <Slider {...settings_category}>

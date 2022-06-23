@@ -26,6 +26,13 @@
     background-color: white;
     color: black;
 }
+.backLeft {
+    float: left;
+}
+
+.maxContent {
+    width: max-content;
+}
 
 @media only screen and (max-width: 991px) {
     .backBtn {
