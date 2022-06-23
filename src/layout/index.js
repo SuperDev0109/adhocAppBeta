@@ -7,7 +7,7 @@ import Footer from './Footer';
 export default function MainLayout() {
     return (
         <Fragment>
-            <Header />
+            {/* <Header /> */}
             <Outlet />
             <Footer />
         </Fragment>

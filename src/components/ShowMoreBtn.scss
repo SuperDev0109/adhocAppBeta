@@ -12,6 +12,10 @@
     color: #000000;
 }
 
+.w-full {
+    width: 100%;
+}
+
 .btnSmall {
     padding: 3px 15px;
 }
@@ -29,7 +33,16 @@
     padding: 5px 100px;
 }
 
+@media only screen and (max-width: 991px) {
+    .showMoreBtn {
+        font-size: 18px;
+    }
+}
+
 @media only screen and (max-width: 500px) {
+    .showMoreBtn {
+        font-size: 16px;
+    }
     .noPadding {
         padding: 5px 20px;
     }

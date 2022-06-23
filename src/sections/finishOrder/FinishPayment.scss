@@ -116,14 +116,14 @@
 @media only screen and (max-width: 767px) {
     .finishPaymentSection {
         .title1 {
-            font-size: 25px;
+            font-size: 23px;
         }
         .box {
             padding: 20px;
             gap: 30px;
     
             .title2 {
-                font-size: 25px;
+                font-size: 18px;
                 display: none;
             }
     
@@ -137,6 +137,10 @@
                     align-items: center;
                     border-bottom: 2px solid #FFB800;
                     width: unset;
+
+                    label {
+                        font-size: 17px;
+                    }
                 }
             }
         }

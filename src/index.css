@@ -15,3 +15,11 @@ code {
 .hidden {
   display: none !important;
 }
+
+button:focus {
+  outline: none;
+}
+
+.hover {
+  cursor: pointer;
+}

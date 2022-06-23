@@ -41,7 +41,7 @@ export default function OrderComplete() {
       };
     return (
         <div className='orderCompleteSection'>
-            <p className='title'>Complete the order with:</p>
+            <span className='title'>Complete the order with:</span>
             <div className='orderCompleteSectionPanel'>
                 <Slider {...settings_bucket}>
                     <BucketAdd title="Tomato and garlic sause" price="5,00" currency="RON" />

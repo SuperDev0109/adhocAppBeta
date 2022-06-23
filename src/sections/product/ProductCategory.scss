@@ -1,5 +1,5 @@
 .productCategorySection {
-    padding-top: 50px;
+    padding-top: 40px;
     margin: 0 10px 0 13px;
 }
 
@@ -8,13 +8,14 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 35px;
     line-height: 60px;
     color: #000000;
+    margin-left: 17px;
 }
 
 .productBucketBoxSection {
-    padding-top: 50px;
+    padding-top: 30px;
     margin: 0 10px 0 13px;
 }
 
@@ -26,3 +27,28 @@
 .slick-next:before {
     content: url('img/rightArrow.png');
 }
+
+@media only screen and (max-width: 991px) {
+    .productBucketBoxSectionTitle {
+        padding-top: 30px;
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .productBucketBoxSection {
+        padding-top: 25px;
+        margin: 0 10px 0 13px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .productBucketBoxSectionTitle {
+        padding-top: 20px;
+        font-size: 28px;
+        line-height: 45px;
+    }
+    .productBucketBoxSection {
+        padding-top: 15px;
+        margin: 0 10px 0 13px;
+    }
+}
+

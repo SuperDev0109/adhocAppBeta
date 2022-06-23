@@ -10,22 +10,30 @@
     }
 
     .orderCompleteSectionPanel {
-        padding: 10px;
+        padding: 10px 0px;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .orderCompleteSection {
+        padding-top: 30px;
         .title {
             font-size: 25px;
+        }
+        .orderCompleteSectionPanel {
+            padding: 7px 0px;
         }
     }
 }
 
 @media only screen and (max-width: 500px) {
     .orderCompleteSection {
+        padding-top: 20px;
         .title {
-            font-size: 30px;
+            font-size: 23px;
+        }
+        .orderCompleteSectionPanel {
+            padding: 5px 0px;
         }
     }
 }

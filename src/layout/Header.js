@@ -1,9 +1,12 @@
 import React, { Fragment } from 'react';
+import Index from '../sections/header';
 
 export default function Header() {
     return (
         <Fragment>
-            Header Component
+            <div className='container'>
+                <Index />
+            </div>
         </Fragment>
     )
 }
