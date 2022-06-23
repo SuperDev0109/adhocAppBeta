@@ -4,7 +4,7 @@
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
     padding: 80px;
     margin-top: 50px;
 
@@ -12,7 +12,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
-        font-size: 40px;
+        font-size: 30px;
         line-height: 60px;
         color: #000000;
     }
@@ -27,7 +27,7 @@
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 25px;
+        font-size: 20px;
         line-height: 38px;
         color: #000000;
     }
@@ -35,11 +35,11 @@
 
 @media only screen and (max-width: 991px) {
     .orderSummarySection {
-        gap: 40px;
+        gap: 20px;
         padding: 50px 20px;
     
         .title1 {
-            font-size: 35px;
+            font-size: 25px;
         }
     
         .panel {
@@ -48,18 +48,18 @@
             gap: 6px;
         }
         .finishSummaryTxt {
-            font-size: 20px;
+            font-size: 18px;
         }
     }
 }
 
 @media only screen and (max-width: 500px) {
     .orderSummarySection {
-        gap: 40px;
+        gap: 20px;
         padding: 50px 20px;
     
         .title1 {
-            font-size: 30px;
+            font-size: 20px;
             text-align: center;
         }
     

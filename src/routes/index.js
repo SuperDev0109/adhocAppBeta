@@ -15,11 +15,13 @@ const Loadable = (Component) => (props) => {
 export default function Router() {
     return useRoutes([
         {
-            path: '/error',
+            path: '/',
             element: <EmptyLayout />,
             children: [
                 { element: <Navigate to="/404" replace />, index: true },
                 { path: '404', element: <Show404Page /> },
+                { path: 'order', element: <OrderPage /> },
+                { path: 'finishorder', element: <FinishOrderPage /> },
             ]
         },
         {
@@ -29,8 +31,6 @@ export default function Router() {
                 { element: <Navigate to="/home" replace />, index: true },
                 { path: 'home', element: <HomePage /> },
                 { path: 'product', element: <ProductPage /> },
-                { path: 'order', element: <OrderPage /> },
-                { path: 'finishorder', element: <FinishOrderPage /> },
             ]
         }
     ])

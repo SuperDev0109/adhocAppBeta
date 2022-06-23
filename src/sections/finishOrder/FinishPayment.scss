@@ -1,29 +1,29 @@
 .finishPaymentSection {
-    padding-top: 60px;
+    padding-top: 20px;
     .title1 {
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 500;
-        font-size: 40px;
+        font-size: 30px;
         line-height: 60px;
         color: #000000;
     }
 
     .box {
-        margin-top: 40px;
+        margin-top: 20px;
         background: #FFFFFF;
         box-shadow: 0px 2px 5px 2px rgba(205, 205, 205, 0.7);
         border-radius: 20px;
         padding: 30px 110px;
         display: flex;
         flex-direction: column;
-        gap: 45px;
+        gap: 20px;
 
         .title2 {
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 500;
-            font-size: 30px;
+            font-size: 25px;
             line-height: 45px;
             color: #000000;
         }
@@ -36,16 +36,14 @@
                 display: flex;
                 flex-direction: row;
                 align-items: center;
-                padding-bottom: 10px;
                 border-bottom: 2px solid #FFB800;
                 width: 445px;
-                margin-bottom: 50px;
                 input {
                     margin: 20px;
                 }
                 input[type="radio"] {
-                    width: 40px;
-                    height: 40px;
+                    width: 30px;
+                    height: 30px;
                     cursor: pointer;
                 }
                 input[type="radio"]:after {
@@ -55,8 +53,8 @@
                     border-radius: 50%;
                     content: '';
                     display: block;
-                    height: 40px;
-                    width: 40px;
+                    height: 30px;
+                    width: 30px;
                 }
                 input[type="radio"]:checked:after {
                     background-color: #FFB800;
@@ -65,7 +63,7 @@
                     font-family: 'Poppins';
                     font-style: normal;
                     font-weight: 500;
-                    font-size: 25px;
+                    font-size: 20px;
                     line-height: 38px;
                     color: #000000;
                 }
@@ -76,17 +74,15 @@
 
 @media only screen and (max-width: 991px) {
     .finishPaymentSection {
-        padding-top: 50px;
         .title1 {
-            font-size: 35px;
+            font-size: 25px;
         }
         .box {
-            margin-top: 30px;
             padding: 30px 30px;
-            gap: 30px;
+            // gap: 30px;
     
             .title2 {
-                font-size: 25px;
+                font-size: 20px;
             }
     
             .boxPanel {
@@ -97,21 +93,19 @@
                     display: flex;
                     flex-direction: row;
                     align-items: center;
-                    padding-bottom: 10px;
                     border-bottom: 2px solid #FFB800;
                     width: 302px;
-                    margin-bottom: 50px;
                     input[type="radio"] {
-                        width: 35px;
-                        height: 35px;
+                        width: 25px;
+                        height: 25px;
                         cursor: pointer;
                     }
                     input[type="radio"]:after {
-                        height: 35px;
-                        width: 35px;
+                        height: 25px;
+                        width: 25px;
                     }
                     label {
-                        font-size: 20px;
+                        font-size: 18px;
                     }
                 }
             }
@@ -121,12 +115,10 @@
 
 @media only screen and (max-width: 767px) {
     .finishPaymentSection {
-        padding-top: 50px;
         .title1 {
-            font-size: 35px;
+            font-size: 25px;
         }
         .box {
-            margin-top: 30px;
             padding: 20px;
             gap: 30px;
     
@@ -143,7 +135,6 @@
                     display: flex;
                     flex-direction: row;
                     align-items: center;
-                    padding-bottom: 10px;
                     border-bottom: 2px solid #FFB800;
                     width: unset;
                 }

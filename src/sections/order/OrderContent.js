@@ -7,7 +7,7 @@ export default function OrderContent() {
     return (
         <div className='orderContentSection'>
             <div className='header'>
-                <Image src="images/product/kfc_180.png" className="" alt="KFC Image" />
+                <Image src="images/product/kfc_180.png" className="" width="150px" height="150px" alt="KFC Image" />
                 <span className='headerTitle'>KFC</span>
             </div>
 
