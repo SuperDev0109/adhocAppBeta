@@ -39,10 +39,10 @@ export default function ProductCategoryItem() {
                             <div className='boxParent'>
                                 <div className='box'>
                                     <div className='panel1'>
-                                        <input type="radio" />
+                                        <input type="radio" id='hotOption' name="hot_option" />
                                         <div className='radioTxtBox'>
-                                            <span className='radioTxt1'>Hot Wings</span>
-                                            <span className='radioTxt2'>You may 11 Crispy strips</span>
+                                            <label htmlFor='hotOption' className='radioTxt1 hover'>Hot Wings</label>
+                                            <label htmlFor='hotOption' className='radioTxt2 hover'>You may 11 Crispy strips</label>
                                         </div>
                                     </div>
                                     <div className='panel2'>
@@ -59,10 +59,10 @@ export default function ProductCategoryItem() {
                             <div className='boxParent'>
                                 <div className='box'>
                                     <div className='panel1'>
-                                        <input type="radio" />
+                                        <input type="radio" id="stripOption" name="strip_option" />
                                         <div className='radioTxtBox'>
-                                            <span className='radioTxt1'>Crispy Strips</span>
-                                            <span className='radioTxt2'>You may 3 Crispy strips</span>
+                                            <label htmlFor='stripOption' className='radioTxt1 hover'>Crispy Strips</label>
+                                            <label htmlFor='stripOption' className='radioTxt2 hover'>You may 3 Crispy strips</label>
                                         </div>
                                     </div>
                                     <div className='panel2'>
@@ -81,9 +81,9 @@ export default function ProductCategoryItem() {
                             <div className='boxParent'>
                                 <div className='box'>
                                     <div className='panel1'>
-                                        <input type="radio" />
+                                        <input type="radio" id="potatoOption1" name='potato_option' />
                                         <div className='radioTxtBox'>
-                                            <span className='radioTxt1'>Small Potatoes</span>
+                                            <label htmlFor='potatoOption1' className='radioTxt1 hover'>Small Potatoes</label>
                                         </div>
                                     </div>
                                     <div className='panel2'>
@@ -93,9 +93,9 @@ export default function ProductCategoryItem() {
                                 </div>
                                 <div className='box'>
                                     <div className='panel1'>
-                                        <input type="radio" />
+                                        <input type="radio" id="potatoOption2" name='potato_option' />
                                         <div className='radioTxtBox'>
-                                            <span className='radioTxt1'>Medium Potatoes</span>
+                                            <label htmlFor='potatoOption2' className='radioTxt1 hover'>Medium Potatoes</label>
                                         </div>
                                     </div>
                                     <div className='panel2'>
@@ -105,9 +105,9 @@ export default function ProductCategoryItem() {
                                 </div>
                                 <div className='box'>
                                     <div className='panel1'>
-                                        <input type="radio" />
+                                        <input type="radio" id="potatoOption3" name='potato_option'  />
                                         <div className='radioTxtBox'>
-                                            <span className='radioTxt1'>Large Potatoes</span>
+                                            <label htmlFor='potatoOption3' className='radioTxt1 hover'>Large Potatoes</label>
                                         </div>
                                     </div>
                                     <div className='panel2'>
@@ -128,9 +128,9 @@ export default function ProductCategoryItem() {
                             <div className='boxParent'>
                                 <div className='box'>
                                     <div className='panel1'>
-                                        <input type="radio" />
+                                        <input type="radio" id='drinkOption1' name='drink_option' />
                                         <div className='radioTxtBox'>
-                                            <span className='radioTxt1'>Coca Cola Zero glass 0.5 L</span>
+                                            <label htmlFor='drinkOption1' className='radioTxt1 hover'>Coca Cola Zero glass 0.5 L</label>
                                         </div>
                                     </div>
                                     <div className='panel2'>
@@ -140,9 +140,9 @@ export default function ProductCategoryItem() {
                                 </div>
                                 <div className='box'>
                                     <div className='panel1'>
-                                        <input type="radio" />
+                                        <input type="radio" id='drinkOption2' name='drink_option' />
                                         <div className='radioTxtBox'>
-                                            <span className='radioTxt1'>Coca Cola Zero glass 0.5 L</span>
+                                            <label htmlFor='drinkOption2' className='radioTxt1 hover'>Coca Cola Zero glass 0.5 L</label>
                                         </div>
                                     </div>
                                     <div className='panel2'>
@@ -152,9 +152,9 @@ export default function ProductCategoryItem() {
                                 </div>
                                 <div className='box'>
                                     <div className='panel1'>
-                                        <input type="radio" />
+                                        <input type="radio" id='drinkOption3' name='drink_option' />
                                         <div className='radioTxtBox'>
-                                            <span className='radioTxt1'>Coca Cola Zero glass 0.5 L</span>
+                                            <label htmlFor='drinkOption3' className='radioTxt1 hover'>Coca Cola Zero glass 0.5 L</label>
                                         </div>
                                     </div>
                                     <div className='panel2'>
@@ -164,9 +164,9 @@ export default function ProductCategoryItem() {
                                 </div>
                                 <div className='box'>
                                     <div className='panel1'>
-                                        <input type="radio" />
+                                        <input type="radio" id='drinkOption4' name='drink_option' />
                                         <div className='radioTxtBox'>
-                                            <span className='radioTxt1'>Coca Cola Zero glass 0.5 L</span>
+                                            <label htmlFor='drinkOption4' className='radioTxt1 hover'>Coca Cola Zero glass 0.5 L</label>
                                         </div>
                                     </div>
                                     <div className='panel2'>
@@ -184,9 +184,9 @@ export default function ProductCategoryItem() {
                             <div className='boxParent'>
                                 <div className='box'>
                                     <div className='panel1'>
-                                        <input type="radio" />
+                                        <input type="radio" id='sauseOption1' name='sause_option' />
                                         <div className='radioTxtBox'>
-                                            <span className='radioTxt1'>Ketchup sause</span>
+                                            <label htmlFor='sauseOption1' className='radioTxt1 hover'>Ketchup sause</label>
                                         </div>
                                     </div>
                                     <div className='panel2'>
@@ -196,9 +196,9 @@ export default function ProductCategoryItem() {
                                 </div>
                                 <div className='box'>
                                     <div className='panel1'>
-                                        <input type="radio" />
+                                        <input type="radio" id='sauseOption2' name='sause_option' />
                                         <div className='radioTxtBox'>
-                                            <span className='radioTxt1'>Garlic sause</span>
+                                            <label htmlFor='sauseOption2' className='radioTxt1 hover'>Garlic sause</label>
                                         </div>
                                     </div>
                                     <div className='panel2'>
@@ -208,9 +208,9 @@ export default function ProductCategoryItem() {
                                 </div>
                                 <div className='box'>
                                     <div className='panel1'>
-                                        <input type="radio" />
+                                        <input type="radio" id='sauseOption3' name='sause_option'  />
                                         <div className='radioTxtBox'>
-                                            <span className='radioTxt1'>Ketchup sause</span>
+                                            <label htmlFor='sauseOption3' className='radioTxt1 hover'>Ketchup sause</label>
                                         </div>
                                     </div>
                                     <div className='panel2'>
@@ -220,9 +220,9 @@ export default function ProductCategoryItem() {
                                 </div>
                                 <div className='box'>
                                     <div className='panel1'>
-                                        <input type="radio" />
+                                        <input type="radio" id='sauseOption4' name='sause_option'  />
                                         <div className='radioTxtBox'>
-                                            <span className='radioTxt1'>Garlic sause</span>
+                                            <label htmlFor='sauseOption4' className='radioTxt1 hover'>Garlic sause</label>
                                         </div>
                                     </div>
                                     <div className='panel2'>
@@ -240,9 +240,9 @@ export default function ProductCategoryItem() {
                             <div className='boxParent'>
                                 <div className='box'>
                                     <div className='panel1'>
-                                        <input type="radio" />
+                                        <input type="radio" id='dessertOption1' name='dessert_option' />
                                         <div className='radioTxtBox'>
-                                            <span className='radioTxt1'>Carrot Cake</span>
+                                            <label htmlFor='dessertOption1' className='radioTxt1 hover'>Carrot Cake</label>
                                         </div>
                                     </div>
                                     <div className='panel2'>
