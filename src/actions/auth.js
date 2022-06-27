@@ -14,6 +14,7 @@ export const getAuthToken = () => async dispatch => {
         
         var requestOptions = {
           method: 'POST',
+          mode: 'no-cors',
           headers: myHeaders,
           body: raw,
           redirect: 'follow'
