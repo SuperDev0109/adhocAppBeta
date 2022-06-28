@@ -9,7 +9,7 @@ const QRscan = () => {
             <QrReader
                 onResult={(result, error) => {
                 if (!!result) {
-                    setData(JSON.parse(result?.data).tableID);
+                    setData(result?.data);
                 }
 
                 if (!!error) {
