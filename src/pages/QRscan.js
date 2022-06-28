@@ -6,7 +6,7 @@ const QRscan = () => {
     const [result, setResult] = useState('No result');
     const handleScan = (data) => {
         var result = JSON.parse(data);
-        setResult(result.tableID);
+        setResult("Scanned");
     }
     const handleError = (err) => {
         console.error(err)
