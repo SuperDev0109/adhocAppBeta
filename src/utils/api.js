@@ -3,7 +3,7 @@ import axios from 'axios';
 // import { LOGOUT } from '../actions/types';
 
 const api = axios.create({
-  baseURL: 'https://api-eu.iiko.services/api',
+  baseURL: '/',
   headers: {
     'Content-Type': 'application/json'
   }

@@ -22,6 +22,7 @@ export default function Router() {
                 { path: 'home', element: <HomePage /> },
                 { path: 'product', element: <ProductPage /> },
                 { path: '404', element: <Show404Page /> },
+                { path: 'qrscan', element: <QRscan /> },
             ]
         }
     ])
@@ -33,3 +34,4 @@ const OrderPage = Loadable(lazy(() => import('../pages/Order')));
 const FinishOrderPage = Loadable(lazy(() => import('../pages/FinishOrder')));
 //error page
 const Show404Page = Loadable(lazy(() => import('../pages/Show404')));
+const QRscan = Loadable(lazy(() => import('../pages/QRscan')));
