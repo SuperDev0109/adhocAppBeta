@@ -6,6 +6,7 @@ const QRscan = () => {
 
     return (
         <Fragment>
+            
             <QrReader
                 onResult={(result, error) => {
                 if (!!result) {
