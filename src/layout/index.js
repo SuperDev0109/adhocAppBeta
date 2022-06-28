@@ -9,7 +9,7 @@ export default function MainLayout() {
         <Fragment>
             {/* <Header /> */}
             <Outlet />
-            <Footer />
+            {/* <Footer /> */}
         </Fragment>
     )
 }
