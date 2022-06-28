@@ -12,7 +12,8 @@ const QRscan = () => {
     }
 
     const previewStyle = {
-        width: 5000,
+        height: 400,
+        width: 400,
     }
     return (
         <Fragment>
