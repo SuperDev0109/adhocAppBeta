@@ -10,6 +10,7 @@ const QRscan = () => {
                 onResult={(result, error) => {
                 if (!!result) {
                     alert(JSON.parse(result?.text).siteUrl);
+                    location.replace(JSON.parse(result?.text).siteUrl);
                     // setData(result?.text);
                 }
 
