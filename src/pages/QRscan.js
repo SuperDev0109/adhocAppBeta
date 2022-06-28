@@ -9,8 +9,8 @@ const QRscan = () => {
             <QrReader
                 onResult={(result, error) => {
                 if (!!result) {
-                    alert(result?.data);
-                    // setData(result?.data);
+                    alert(result?.text);
+                    // setData(result?.text);
                 }
 
                 if (!!error) {
