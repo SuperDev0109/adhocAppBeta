@@ -5,7 +5,7 @@ const QRscan = () => {
     const [delay, setDelay] = useState(100);
     const [result, setResult] = useState('No result');
     const handleScan = (data) => {
-        // setResult(data);
+        setResult(data);
     }
     const handleError = (err) => {
         console.error(err)
