@@ -6,13 +6,13 @@ const QRscan = () => {
 
     return (
         <Fragment>
-            
+
             <QrReader
                 onResult={(result, error) => {
                 if (!!result) {
 
                     alert("Site url: "+JSON.parse(result?.text).siteUrl+"\n"+"Table ID: "+JSON.parse(result?.text).tableID);
-                    window.location.href(JSON.parse(result?.text).siteUrl);
+                    window.location.replace(JSON.parse(result?.text).siteUrl);
                     // setData(result?.text);
                 }
 
