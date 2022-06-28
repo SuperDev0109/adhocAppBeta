@@ -9,7 +9,7 @@ const QRscan = () => {
             <QrReader
                 onResult={(result, error) => {
                 if (!!result) {
-                    alert(JSON.parse(result?.text).siteUrl);
+                    alert("Site url: "+JSON.parse(result?.text).siteUrl+"\n"+"Table ID: "+JSON.parse(result?.text).tableID);
                     location.replace(JSON.parse(result?.text).siteUrl);
                     // setData(result?.text);
                 }
