@@ -1,30 +1,24 @@
 import React, { Fragment, useState } from 'react';
-import QrReader from 'react-qr-scanner'
+import { QrReader } from 'react-qr-reader';
 
 const QRscan = () => {
-    const [delay, setDelay] = useState(100);
-    const [result, setResult] = useState('No result');
-    const handleScan = (data) => {
-        var result = JSON.parse(data);
-        setResult("Scanned");
-    }
-    const handleError = (err) => {
-        console.error(err)
-    }
-    
-    const previewStyle = {
-        height: 400,
-        width: 400,
-    }
+    const [data, setData] = useState('No result');
+
     return (
         <Fragment>
             <QrReader
-                delay={delay}
-                style={previewStyle}
-                onError={handleError}
-                onScan={handleScan}
+                onResult={(result, error) => {
+                if (!!result) {
+                    setData(JSON.parse(result?.data).tableID);
+                }
+
+                if (!!error) {
+                    console.info(error);
+                }
+                }}
+                style={{ width: '100%' }}
             />
-            <p>{result}</p>
+            <p>{data}</p>
         </Fragment>
     )
 }
